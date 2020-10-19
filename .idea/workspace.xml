@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11cc1c35-b6f9-4fc0-8d14-06475ce5ab2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/front-end (form)/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-end (form)/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end (form)/form/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end (form)/form/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_HW1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_HW1/form/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_HW1/form/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_HW1/meet-jack/image/Meet_jack.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_HW1/meet-jack/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_HW1/meet-jack/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GitHubMohsni.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end (form)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end (form)/form/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end (form)/form/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end (form)/form/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end (form)/form/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end (form)/meet-jack/image/Meet_jack.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end (form)/meet-jack/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end (form)/meet-jack/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +78,7 @@
       <workItem from="1602916207281" duration="5103000" />
       <workItem from="1602924727909" duration="5354000" />
       <workItem from="1603089618849" duration="37000" />
-      <workItem from="1603089659030" duration="6871000" />
+      <workItem from="1603089659030" duration="17055000" />
     </task>
     <servers />
   </component>
@@ -77,5 +95,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="504" y="207" key="FileChooserDialogImpl/1440.66.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1603089653425" />
+    <state x="316" y="185" key="Vcs.Push.Dialog.v2" timestamp="1603097234141">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="316" y="185" key="Vcs.Push.Dialog.v2/1440.66.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1603097234141" />
   </component>
 </project>

@@ -1,0 +1,35 @@
+body {
+  padding: 0 10vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+#section1 img {
+  margin: 0;
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
+
+#section2 h1 {
+  margin: 5px 0;
+}
+#section2 sub {
+  display: block;
+  text-align: center;
+}
+#section2 p {
+  margin-left: 40px;
+}
+
+footer p {
+  text-align: center;
+}
+footer span {
+  padding: 0 5px;
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

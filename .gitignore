@@ -1,5 +1,7 @@
 .idea/*
 .idea/
+.gitignore
+idea/
 __pycach__/
 *.pyc
 *.css.map

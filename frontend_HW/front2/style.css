@@ -1,0 +1,66 @@
+body {
+  background: #CDEB8B;
+  padding: 0 380px;
+}
+body .container {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+}
+body .container .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: normal;
+}
+body .container .section {
+  flex-wrap: wrap;
+}
+body .container .bluebox {
+  display: block;
+  background: #D9E8FB;
+  border: 1px solid #BACFDF;
+  width: 100px;
+  height: 100px;
+  margin: 2.5px 2.5px;
+}
+body .container .creambox {
+  display: block;
+  background: #FFE6CD;
+  border: 1px solid #E6CD8A;
+  width: 300px;
+  height: 100px;
+  margin: 2.5px 2.5px;
+  margin: 2.5px 0;
+}
+body .container .wrap1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+body .container .wrap2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+body .container .wrap3 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+body .container .wrap4 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: normal;
+}
+body .container .wrap5 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: normal;
+}
+
+/*# sourceMappingURL=style.css.map */

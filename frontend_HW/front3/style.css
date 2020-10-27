@@ -1,25 +1,33 @@
+@font-face {
+  font-family: bYekan;
+  src: url("font/Yekan.woff");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: yekan, sans-serif;
-  font-weight: bold;
+  font-family: bYekan, sans-serif;
+  letter-spacing: -0.4px;
   color: white;
 }
 
 body {
   background: url("image/bg.jpg") no-repeat fixed center;
-  padding: 0 10vw;
+  background-size: cover;
+  padding: 6vh 10vw;
 }
 body .container {
-  height: 100vh;
+  height: 88vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 body .container h3 {
-  font-size: 2em;
+  font-size: 4em;
+}
+body .container > span {
+  font-size: 1.7em;
 }
 body .container form {
   width: 300px;
@@ -29,7 +37,7 @@ body .container .wrap {
 }
 body .container .wrap label {
   position: relative;
-  top: -48px;
+  top: -46px;
 }
 body .container .wrap label img {
   float: left;
@@ -38,7 +46,8 @@ body .container .wrap label img {
 body .container .wrap label .label-txt {
   cursor: pointer;
   display: inline-block;
-  transform: translateY(18px);
+  font-size: 0.9em;
+  transform: translateY(15px);
   transition: transform 0.3s ease;
 }
 body .container .wrap input {
@@ -88,10 +97,10 @@ body .container .text-under a:hover {
 body .container button {
   width: 100%;
   border: none;
-  margin-top: 20px;
+  margin-top: 5px;
   border-radius: 8px;
   font-size: 1.4em;
-  height: 50px;
+  height: 60px;
   background: #1D89E3;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.5s ease;
@@ -102,6 +111,20 @@ body .container button:focus {
 body .container button:hover {
   background-color: #12b3e3;
   box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+}
+body .container .wrap-icon {
+  display: flex;
+}
+body .container .wrap-icon .one {
+  background-color: #23ace3;
+  border-radius: 0 0 3px 0;
+}
+body .container .wrap-icon .two {
+  background-color: #2877d5;
+}
+body .container .wrap-icon .three {
+  background-color: #1d5dde;
+  border-radius: 0 0 0 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

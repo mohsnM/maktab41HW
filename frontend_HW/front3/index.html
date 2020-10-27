@@ -5,18 +5,20 @@
     <title>Maktab 41 | front2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="custom/checkbox.css">
+    <link rel="stylesheet" href="custom/clearbook.css">
 </head>
 <body>
     <section class="container">
         <h3>گنجه</h3>
         <span>ورود به حساب کاربری</span>
-        <form action="www.helloWorld.com">
+
+        <form action="https://helloWorld.com">
             <div class="wrap">
                 <input id="username" type="text" required>
                 <span class="input-bottomLine"></span>
                 <label for="username">
                     <img src="icon/person.svg" alt="">
-                    <h5 class="label-txt">نام کاربری</h5>
+                    <span class="label-txt">نام کاربری</span>
                 </label>
             </div>
             <div class="wrap">
@@ -24,7 +26,7 @@
                 <span class="input-bottomLine"></span>
                 <label for="password">
                     <img src="icon/lock.svg" alt="">
-                    <h5 class="label-txt">رمزعببور</h5>
+                    <span class="label-txt">رمزعببور</span>
                 </label>
             </div>
             <button type="submit">ورود</button>
@@ -37,7 +39,13 @@
                 <span><a href="#">رمزعبور خود را فراموش کرده‌اید؟</a></span>
             </div>
         </form>
-        <span class="icon-df"></span>
+
+        <div class="wrap-icon">
+            <span class="icon-df one"></span>
+            <span class="icon-df two"></span>
+            <span class="icon-df three"></span>
+        </div>
+
     </section>
 </body>
 </html>

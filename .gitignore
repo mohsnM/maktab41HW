@@ -4,5 +4,4 @@
 idea/
 __pycach__/
 *.pyc
-*.css.map
-*.scss
+

@@ -1,0 +1,134 @@
+$blue_lighter: #12b3e3;
+$main_blue: #1D89E3;
+@font-face {
+  font-family: bYekan;
+  src: url("font/Yekan.woff");
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: bYekan, sans-serif;
+  letter-spacing: -0.4px;
+  color: white;
+}
+body{
+  background: url("image/bg.jpg") no-repeat fixed center;
+  background-size: cover;
+  padding: 6vh 10vw;
+  .container{
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h3{
+      font-size: 4em;
+    }
+    > span{
+      font-size: 1.7em;
+    }
+    form{
+      width: 300px;
+    }
+    .wrap{
+      margin: 30px 0;
+      label{
+        position: relative;
+        top: -46px;
+        img{
+          float: left;
+          transform: translateY(25px);
+        }
+        .label-txt{
+          cursor: pointer;
+          display: inline-block;
+          font-size: 0.9em;
+          transform: translateY(15px);
+          transition: transform 0.3s ease;
+        }
+      }
+      input{
+        position: relative;
+        font-size: 1.1em;
+        width: 100%;
+        height: 1.6em;
+        border: none;
+        border-bottom: 1px solid white;
+        background: transparent;
+      }
+      .input-bottomLine{
+        display: block;
+        width: 100%;
+        height: 1px;
+        transform: translateY(-1px) scaleX(0);
+        background-color: $blue_lighter;
+        transition: transform 0.3s ease;
+      }
+      input:focus{
+        outline: none;
+      }
+      input:focus ~ .input-bottomLine{
+        transform: translateY(-1px) scaleX(1);
+      }
+      input:focus ~ label > .label-txt,
+      input:valid ~ label > .label-txt{
+        transform: translateY(-5px);
+      }
+    }
+    .text-under{
+      display: flex;
+      font-size: small;
+      justify-content: space-between;
+      label:hover{
+        color: $blue_lighter;
+        cursor: pointer;
+        transition: color 0.3s ease;
+      }
+      a{
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      a:hover{
+        color: $blue_lighter;
+      }
+    }
+    button{
+      width: 100%;
+      border: none;
+      margin-top: 5px;
+      border-radius: 8px;
+      font-size: 1.4em;
+      height: 60px;
+      background: $main_blue;
+      cursor: pointer;
+      transition: background-color 0.3s ease, box-shadow 0.5s ease;
+    }
+    button:focus{
+      outline: none;
+    }
+    button:hover{
+      background-color: $blue_lighter;
+      box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+    }
+    .wrap-icon{
+      display: flex;
+      .one{
+        background-color: #23ace3;
+        border-radius: 0 0 3px 0;
+      }
+      .two{
+        background-color: #2877d5;
+      }
+      .three{
+        background-color: #1d5dde;
+        border-radius: 0 0 0 3px;
+      }
+    }
+  }
+}
+
+
+

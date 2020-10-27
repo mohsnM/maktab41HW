@@ -1,0 +1,51 @@
+@import "mixin";
+
+body{
+  background: #CDEB8B;
+  padding: 0  380px;
+  .container{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+
+    .wrapper{
+      @include flex(space-between);
+    }
+
+    .section{
+      flex-wrap: wrap;
+    }
+
+    .bluebox{
+      @include box(#D9E8FB, #BACFDF, 100px, 100px);
+    }
+
+    .creambox{
+      @include box(#FFE6CD, #E6CD8A, 300px, 100px);
+      margin: 2.5px 0;
+    }
+
+    .wrap1{
+      @include flex(flex-end, row);
+    }
+
+    .wrap2{
+      width: 50%;
+      @include flex(flex-end, row)
+    }
+
+    .wrap3{
+      width: 100%;
+      @include flex(flex-start, row)
+    }
+    .wrap4{
+      width: 50%;
+      @include flex(flex-end)
+    }
+    .wrap5{
+      width: 50%;
+      @include flex(center)
+    }
+  }
+}

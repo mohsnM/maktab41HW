@@ -1,0 +1,14 @@
+@mixin flex($jst:normal, $fxd: normal){
+  display: flex;
+  justify-content: $jst;
+  flex-direction: $fxd;
+}
+
+@mixin box($color, $border, $width, $height){
+  display: block;
+  background: $color;
+  border: 1px solid $border;
+  width: $width;
+  height: $height;
+  margin: 2.5px 2.5px;
+}

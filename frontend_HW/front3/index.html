@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <title>Maktab 41 | front2</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom/checkbox.css">
 </head>
 <body>
     <section class="container">
         <h3>گنجه</h3>
         <span>ورود به حساب کاربری</span>
-        <div class="form">
-            <form action="#">
-                <label for="username"><img src="icon/person.svg" alt=""> نام کاربری</label><br>
-                <input id="username" type="text"><br>
-                <label for="password"><img src="icon/lock.svg" alt="">رمزعببور </label><br>
-                <input id="password" type="password"><br>
-                <button type="submit">ورود</button>
-                <div class="text-under">
-                    <label for="remember">مرا به خاطر بسپار</label>
+        <form action="www.helloWorld.com">
+            <div class="wrap">
+                <input id="username" type="text" required>
+                <span class="input-bottomLine"></span>
+                <label for="username">
+                    <img src="icon/person.svg" alt="">
+                    <h5 class="label-txt">نام کاربری</h5>
+                </label>
+            </div>
+            <div class="wrap">
+                <input id="password" type="password" required>
+                <span class="input-bottomLine"></span>
+                <label for="password">
+                    <img src="icon/lock.svg" alt="">
+                    <h5 class="label-txt">رمزعببور</h5>
+                </label>
+            </div>
+            <button type="submit">ورود</button>
+            <div class="text-under">
+                <div class="wrap1">
                     <input id="remember" type="checkbox">
-                    <span><a href="#">رمزعبور خود را فراموش کرده‌اید؟</a></span>
+                    <span class="custom-checkbox"></span>
+                    <label for="remember">مرا به خاطر بسپار</label>
                 </div>
-            </form>
-            <span class="icon-df"></span>
-        </div>
+                <span><a href="#">رمزعبور خود را فراموش کرده‌اید؟</a></span>
+            </div>
+        </form>
+        <span class="icon-df"></span>
     </section>
 </body>
 </html>

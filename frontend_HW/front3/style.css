@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background: url("image/bg.jpg") no-repeat fixed center;
+  padding: 0 10vw;
+}
+body .container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -7,7 +7,8 @@
 
 body {
   padding: 0 7vw;
-  background-color: #4e93ee;
+  background: url("../image/caffe1.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding: 10px 0;
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -34,7 +35,7 @@ body {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
 }
 
 .container .input-code {
@@ -59,7 +60,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
 }
 
 .code {
@@ -82,15 +83,49 @@ body {
   border: none;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  border-radius: 0 5px 0 5px;
-  border-right: 2px solid #000000;
-  border-bottom: 2px solid #000000;
+  color: #ffffff;
+  font-size: 0.9em;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0 5px 2px 5px;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid #ffffff;
+}
+
+.args input::-webkit-input-placeholder {
+  color: #ad7744;
+}
+
+.args input:-ms-input-placeholder {
+  color: #ad7744;
+}
+
+.args input::-ms-input-placeholder {
+  color: #ad7744;
+}
+
+.args input::placeholder {
+  color: #ad7744;
 }
 
 .args input:focus {
   outline: none;
-  border-right: 1px solid #4e93ee;
-  border-bottom: 1px solid #4e93ee;
+  border-right: 1px solid #ad7744;
+  border-bottom: 1px solid #ad7744;
+}
+
+.args #arg1 {
+  width: 80%;
+  height: calc(100% / 2.8);
+}
+
+.args span {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: calc(100% / 3.2);
 }
 
 .result {
@@ -100,17 +135,26 @@ body {
 button {
   padding: 5px;
   border: none;
-  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-size: 1em;
   border-radius: 5px;
+  font-weight: bold;
+  background-color: #B1AFB0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 button:hover {
+  color: #ad7744;
   background-color: transparent;
 }
 
 button:focus {
   outline: none;
+}
+
+pre {
+  color: #ffffff;
+  font-size: 1.1em;
 }
 /*# sourceMappingURL=style.css.map */

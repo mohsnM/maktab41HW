@@ -21,8 +21,7 @@ body {
       justify-content: space-around;
 }
 
-.container .input-code {
-  width: 60vw;
+.container .input-code, .container .call-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,21 +37,12 @@ body {
   border: 1px solid #000000;
 }
 
+.container .input-code {
+  width: 60vw;
+}
+
 .container .call-button {
   width: 20vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  border: 1px solid #000000;
 }
 
 .code,
@@ -80,11 +70,14 @@ body {
   height: calc(100% / 5.5);
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .args input {
   width: 45%;
-  height: 28%;
   padding: 5px;
   border: none;
   -webkit-transition: 0.2s;

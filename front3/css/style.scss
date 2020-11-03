@@ -16,21 +16,18 @@ body {
   padding: 10px 0;
   background-color: $white;
   justify-content: space-around;
-  .input-code {
-    width: 60vw;
+  .input-code, .call-button {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
     border: 1px solid $black;
   }
+  .input-code {
+    width: 60vw;    
+  }
   .call-button {
     width: 20vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    border: 1px solid $black;
   }
 }
 .code,
@@ -49,9 +46,9 @@ body {
 .args {
   height: calc(100% / 5.5);
   justify-content: space-around;
+  flex-direction: column;
   input {
-		width: 45%;
-		height: 28%;
+    width: 45%;
 		padding: 5px;
 		border: none;
 		transition: 0.2s;

@@ -1,0 +1,82 @@
+@import "mixin";
+@import "color";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0 7vw;
+  background-color: $wheat;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  padding: 10px 0;
+  background-color: $white;
+  justify-content: space-around;
+  .input-code {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid $black;
+  }
+  .call-button {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid $black;
+  }
+}
+.code,
+.args,
+.result {
+  width: 80%;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $black;
+}
+.code {
+  height: calc(100% / 2.5);
+}
+.args {
+  height: calc(100% / 5.5);
+  justify-content: space-around;
+  input {
+		width: 45%;
+		height: 28%;
+		padding: 5px;
+		border: none;
+		transition: 0.2s;
+		border-radius: 0 5px 0 5px;
+		border-right: 2px solid $black;
+		border-bottom: 2px solid $black;
+	}
+	input:focus {
+		outline: none;
+		border-right: 1px solid $wheat;
+		border-bottom: 1px solid $wheat;
+	}
+}
+.result {
+  height: calc(100% / 4.5);
+}
+button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: transparent;
+}
+button:focus {
+  outline: none;
+}

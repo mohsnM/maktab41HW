@@ -8,7 +8,7 @@
 }
 
 .icon-df:before, .icon-df:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
 }
@@ -29,5 +29,4 @@
   border-radius: 50%;
   border: 2px solid white;
 }
-
 /*# sourceMappingURL=clearbook.css.map */

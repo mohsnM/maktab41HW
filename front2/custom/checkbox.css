@@ -8,7 +8,7 @@
 }
 
 .custom-checkbox:before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   margin-top: 2px;
@@ -16,7 +16,8 @@
   height: 0.3em;
   border-bottom: 2px solid transparent;
   border-left: 2px solid transparent;
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 #remember {
@@ -31,5 +32,4 @@
   border-bottom: 2px solid #12b3e3;
   border-left: 2px solid #12b3e3;
 }
-
 /*# sourceMappingURL=checkbox.css.map */

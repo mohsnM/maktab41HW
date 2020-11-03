@@ -7,7 +7,7 @@
 
 body {
   padding: 0 7vw;
-  background-color: #f5deb4;
+  background-color: #4e93ee;
 }
 
 .container {
@@ -96,8 +96,8 @@ body {
 
 .args input:focus {
   outline: none;
-  border-right: 1px solid #f5deb4;
-  border-bottom: 1px solid #f5deb4;
+  border-right: 1px solid #4e93ee;
+  border-bottom: 1px solid #4e93ee;
 }
 
 .result {
@@ -107,6 +107,7 @@ body {
 button {
   padding: 5px;
   border: none;
+  font-size: 1.2em;
   border-radius: 5px;
   -webkit-transition: 0.4s;
   transition: 0.4s;

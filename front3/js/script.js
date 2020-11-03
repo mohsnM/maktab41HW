@@ -3,6 +3,14 @@ let list2 = [87, 34, 21, 43, 234];
 let list3 = [[2, 3], 5, [[[2, 9], 4], 4], 1, 0];
 let list4 = [32, 23, 12, 65, 65, 12, 54];
 
+const toArray = (str) => {
+  let newArr = [];
+  for (let i = 0; i < str.length; i += 2) {
+    newArr.push(arr[i]);
+  }
+  return newArr;
+}
+
 const deleteByIndex = (arr, index) => {
   arr.splice(index, 1);
   return arr;
@@ -21,11 +29,7 @@ const combineAndSort = (...arr) => {
 
 const flatArray = (arr) => {
   arr = arr.join();
-  let newArr = [];
-  for (let i = 0; i < arr.length; i += 2) {
-    newArr.push(arr[i]);
-  }
-  return newArr;
+  return arr.match(/[0-9]*[^,]/g);;
 };
 
 const findByItem = (arr, item) => {
@@ -45,6 +49,8 @@ const extractNumberFromSrting = (str) => {
 const removeDuplicateItems = (arr) => {
   return arr.filter((a, b) => arr.indexOf(a) === b);
 };
+
+console.log(flatArray(list2));
 
 /* the code above is main code of project */
 

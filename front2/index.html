@@ -1,63 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Maktab 41 | front2</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom/checkbox.css">
+    <link rel="stylesheet" href="custom/clearbook.css">
 </head>
 <body>
+    <section class="container">
+        <h3>گنجه</h3>
+        <span>ورود به حساب کاربری</span>
 
-    <div class="container">
+        <form action="https://helloWorld.com">
+            <div class="wrap">
+                <input id="username" type="text" required>
+                <span class="input-bottomLine"></span>
+                <label for="username">
+                    <img src="icon/person.svg" alt="">
+                    <span class="label-txt">نام کاربری</span>
+                </label>
+            </div>
+            <div class="wrap">
+                <input id="password" type="password" required>
+                <span class="input-bottomLine"></span>
+                <label for="password">
+                    <img src="icon/lock.svg" alt="">
+                    <span class="label-txt">رمزعببور</span>
+                </label>
+            </div>
+            <button type="submit">ورود</button>
+            <div class="text-under">
+                <div class="wrap1">
+                    <input id="remember" type="checkbox">
+                    <span class="custom-checkbox"></span>
+                    <label for="remember">مرا به خاطر بسپار</label>
+                </div>
+                <span><a href="#">رمزعبور خود را فراموش کرده‌اید؟</a></span>
+            </div>
+        </form>
 
-        <div class="wrapper">
-            <div class="bluebox"></div>
-            <div class="bluebox"></div>
-            <div class="bluebox"></div>
-            <div class="creambox"></div>
+        <div class="wrap-icon">
+            <span class="icon-df one"></span>
+            <span class="icon-df two"></span>
+            <span class="icon-df three"></span>
         </div>
 
-        <div class="wrapper">
-            <div class="creambox"></div>
-            <div class="wrap1">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-        </div>
-
-        <div class="wrapper">
-            <div class="creambox"></div>
-            <div class="creambox"></div>
-        </div>
-
-        <div class="wrapper section">
-            <div class="wrap2">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <div class="wrap2">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <div class="wrap3">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <div class="wrap4">
-                <div class="bluebox"></div>
-            </div>
-            <div class="wrap5">
-                <div class="bluebox"></div>
-            </div>
-        </div>
-
-        <div class="wrapper">
-            <div class="bluebox"></div>
-            <div class="creambox"></div>
-            <div class="bluebox"></div>
-        </div>
-
-    </div>
+    </section>
 </body>
 </html>
